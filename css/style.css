@@ -1,0 +1,118 @@
+html,
+body {
+   height: 100%;
+   font-family: 'Roboto', sans-serif;
+}
+
+img {
+   width: 100%;
+   height: 50%;
+}
+/*------COVER------*/
+#cover {
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/doom.jpg') center no-repeat ;
+   background-size: cover;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+#cover h1 {
+   font-size: 350%;
+   font-weight: 100;
+   letter-spacing: 2px;
+}
+
+.cover-caption {
+   text-align: center;
+   width: 100%;
+   color: #fff;
+}
+
+.cover-caption p {
+   line-height: 180%;
+   font-size: 1.1rem;
+}
+
+.cover-caption form {
+   justify-content: center;
+}
+
+.mood {
+   color: #FFC107;
+}
+/*------NAVBAR------*/
+.navbar-brand img {
+   height: 60px;
+   width: auto;
+}
+
+#navlink a {
+   font-size: 105%;
+   margin-right: 15px;
+   border-bottom: 1px solid transparent;
+   padding: 0;
+   padding-bottom: 7px;
+   transition: color 0.2s, border-bottom 0.2s;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+#navlink a:hover {
+   border-bottom: 1px solid #45aaf2;
+}
+
+/*------SECTION-CONTENT------*/
+.section-content {
+   padding: 2rem 0;
+}
+
+/*------CARDS------*/
+.card-block {
+   padding: 1rem;
+}
+
+.musk {
+   background-color: #dcdde1;
+}
+
+.spirit {
+   background-color: #44bd32;
+}
+
+.villain {
+   background-color: #91CEFF;
+}
+/*------ABOUT------*/
+#about {
+   background: url('../img/about.jpg') center no-repeat;
+   background-size: cover;
+   height: 80%;
+}
+
+.about-text {
+   background-color: #161733;
+   color: white;
+   padding: 1rem;
+   border-radius: 5px;
+   position: relative;
+   top: 30%;
+}
+
+/*------FOOTER------*/
+#main-footer {
+   background-color: #1C1C1C;
+   padding: 1.875rem;
+   font-size: 0.9rem;
+   color: white;
+}
+
+ .rapp li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.rapp li a:hover {
+   color: #ffc048;
+}
